@@ -42,7 +42,6 @@ function initRSVPForm() {
 		console.log("submitting form...");
 		var rsvpEmail = $('#rsvpEmail').val();
 		// Send the POST request
-		
 		$.post('addRSVP', { rsvpEmail: rsvpEmail }, postCallback);
 	});
 

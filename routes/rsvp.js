@@ -20,7 +20,7 @@ var rsvpEmail = request.body.rsvpEmail;
   console.log(rsvpEmail);
 
 
-  data.rvsp.push(rsvpEmail); // add to curr data
+  data.rsvp.push(rsvpEmail); // add to curr data
 
   // Let us send back some data so that
   // browser knows it worked!
